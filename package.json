@@ -46,7 +46,8 @@
     "asset",
     "assets"
   ],
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gulp-util": "^3.0.0",
     "modify-filename": "^1.1.0",
     "object-assign": "^4.0.1",
@@ -54,9 +55,8 @@
     "rev-path": "^1.0.0",
     "sort-keys": "^1.0.0",
     "through2": "^2.0.0",
-    "vinyl-file": "^1.1.0"
-  },
-  "devDependencies": {
+    "vinyl-file": "^1.1.0",
+  
     "mocha": "*",
     "xo": "*"
   },
