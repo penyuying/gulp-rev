@@ -127,7 +127,7 @@ var plugin = function (obj) {
 				var hash = pathMap[reverseFilename];
 				file.path = revPath(file.path.replace(/\.map$/, ''), hash,obj.type) + '.map';
 			} else {
-				transformFilename(file);
+				transformFilename(file,obj.type);
 			}
 
 			this.push(file);
